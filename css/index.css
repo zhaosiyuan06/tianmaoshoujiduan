@@ -1,0 +1,2173 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("../iconfont.woff"); }
+
+.iconfont {
+  font-family: "iconfont" !important; }
+
+.icon-mianbaoxianxian:before {
+  content: "\e74e"; }
+
+.icon-fangdajing:before {
+  content: "\e600"; }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 337.5px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 129.375px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 128.75px; } }
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 120px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 117.1875px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 112.5px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 100px; } }
+
+body {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 16px; }
+
+.top_box {
+  z-index: 10;
+  width: 100%;
+  height: 0.45rem;
+  background: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0rem;
+  left: 0rem; }
+  .top_box.colors {
+    background: rgba(255, 2, 2, 0.9); }
+  .top_box .left {
+    width: 0.43rem;
+    height: 100%;
+    float: left; }
+    .top_box .left .icons {
+      box-sizing: border-box;
+      padding-top: 0.1rem;
+      font-size: 0.25rem;
+      color: rgba(255, 255, 255, 0.9);
+      width: 0.25rem;
+      height: 0.45rem;
+      float: right; }
+  .top_box .left2 {
+    width: 1.8rem;
+    height: 0.33rem;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.06rem; }
+    .top_box .left2 .search {
+      width: 1.99rem;
+      height: 100%;
+      float: right;
+      border-radius: 0.03rem;
+      background: rgba(255, 255, 255, 0.9); }
+      .top_box .left2 .search .inputs {
+        color: #ccc;
+        line-height: 0.33rem;
+        font-size: 0.14rem;
+        outline: none;
+        border: none;
+        width: 1.4rem;
+        height: 0.33rem;
+        margin-left: 0.03rem;
+        float: left; }
+      .top_box .left2 .search .sousuo {
+        float: left;
+        width: 0.3rem;
+        height: 100%;
+        background: url("../image/fangdajing.png") no-repeat center;
+        background-size: 0.15rem; }
+  .top_box .left3 {
+    margin-left: 0.15rem;
+    width: 0.42rem;
+    height: 100%;
+    float: left; }
+    .top_box .left3 .denglu {
+      height: 100%;
+      width: 0.42rem;
+      line-height: 0.45rem;
+      font-size: 0.14rem;
+      color: #ffffff; }
+
+.banner_box {
+  width: 100%;
+  height: 1.55rem; }
+  .banner_box .swiper-container {
+    width: 100%;
+    height: 100%; }
+    .banner_box .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: 100%; }
+      .banner_box .swiper-container .swiper-wrapper .one {
+        width: 100%;
+        height: 100%;
+        background: url("../image/1.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .two {
+        width: 100%;
+        height: 100%;
+        background: url("../image/2.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .three {
+        width: 100%;
+        height: 100%;
+        background: url("../image/3.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .four {
+        width: 100%;
+        height: 100%;
+        background: url("../image/4.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .five {
+        width: 100%;
+        height: 100%;
+        background: url("../image/5.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .six {
+        width: 100%;
+        height: 100%;
+        background: url("../image/6.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .seven {
+        width: 100%;
+        height: 100%;
+        background: url("../image/7.webp") no-repeat center;
+        background-size: 3.2rem; }
+      .banner_box .swiper-container .swiper-wrapper .eight {
+        width: 100%;
+        height: 100%;
+        background: url("../image/8.webp") no-repeat center;
+        background-size: 3.2rem; }
+
+.direc_box {
+  width: 100%;
+  height: 1.28rem; }
+  .direc_box .direct1 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct1 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon1.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct1 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct2 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct2 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon2.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct2 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct3 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct3 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon3.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct3 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct4 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct4 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon4.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct4 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct5 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct5 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon5.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct5 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct6 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct6 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon6.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct6 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct7 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct7 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon7.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct7 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct8 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct8 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon8.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct8 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct9 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct9 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon9.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct9 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+  .direc_box .direct10 {
+    width: 0.64rem;
+    height: 0.64rem;
+    float: left; }
+    .direc_box .direct10 .icon1 {
+      margin: 0 auto;
+      width: 100%;
+      height: 0.49rem;
+      background: url("../image/icon10.webp") no-repeat center;
+      background-size: 0.36rem; }
+    .direc_box .direct10 span {
+      display: block;
+      width: 100%;
+      height: 0.15rem;
+      text-align: center;
+      font-size: 0.12rem;
+      line-height: 0.15rem; }
+
+.redian {
+  width: 100%;
+  height: 0.63rem;
+  background: #fff;
+  position: relative; }
+  .redian .redian_neirong {
+    width: 100%;
+    height: 0.4rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto; }
+    .redian .redian_neirong .tu1 {
+      float: left;
+      width: 0.66rem;
+      height: 100%;
+      border-right: 1px solid #e7e7e7;
+      background: url("../image/redian.webp") no-repeat center;
+      background-size: 0.5rem; }
+    .redian .redian_neirong .tu2 {
+      width: 0.36rem;
+      height: 100%;
+      position: relative;
+      float: left; }
+      .redian .redian_neirong .tu2 .laba {
+        width: 0.22rem;
+        height: 0.22rem;
+        background: url("../image/laba.webp");
+        background-size: 0.22rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+    .redian .redian_neirong .lunbo {
+      width: 2.16rem;
+      height: 100%;
+      float: left; }
+      .redian .redian_neirong .lunbo .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto; }
+      .redian .redian_neirong .lunbo .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+        .redian .redian_neirong .lunbo .swiper-slide a {
+          text-decoration: none; }
+          .redian .redian_neirong .lunbo .swiper-slide a .black1 {
+            color: black;
+            font-size: 0.12rem; }
+          .redian .redian_neirong .lunbo .swiper-slide a .red1 {
+            text-align: left;
+            color: #f3314b;
+            font-size: 0.12rem; }
+
+.huise {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+  padding-top: 0.05rem; }
+  .huise .lunbo2 {
+    width: 100%;
+    height: 1.05rem; }
+
+#lunbo2 .swiper-wrapper .a {
+  width: 1rem;
+  background: url("../image/l1.webp") no-repeat center;
+  background-size: cover; }
+
+#lunbo2 .swiper-wrapper .b {
+  width: 1rem;
+  background: url("../image/l2.webp") no-repeat center;
+  background-size: cover; }
+
+#lunbo2 .swiper-wrapper .c {
+  width: 1rem;
+  background: url("../image/l3.webp") no-repeat center;
+  background-size: cover; }
+
+.huise .lunbo2 .swiper-slide {
+  width: 2rem;
+  height: 1.05rem;
+  text-align: center;
+  font-size: 15px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+
+.biqiang_box {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box .biqiang {
+    margin: 0 auto;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #f6b7b7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box .biqiang .huo {
+      width: 0.15rem;
+      height: 0.15rem;
+      background: url("../image/biqiang.webp");
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #f6b7b7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1rem; }
+    .biqiang_box .biqiang .biqiangwenzi {
+      width: 0.33rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #ff2e2e; }
+
+.biqiang_box1 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box1 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box1 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #f6b7b7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box1 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.15rem;
+      background: url("../image/temai.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box1 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #f6b7b7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box1 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #ff8000; }
+
+.biqiangtu {
+  width: 100%;
+  height: 0.95rem; }
+  .biqiangtu .biqiangtuleft {
+    height: 100%;
+    width: 1.59rem;
+    float: left;
+    background: url("../image/bi1.webp") no-repeat center;
+    background-size: 1.59rem; }
+  .biqiangtu .biqiangturight {
+    height: 100%;
+    width: 1.59rem;
+    float: left;
+    background: url("../image/bi2.webp") no-repeat center;
+    background-size: 1.59rem; }
+
+.biqiang_box2 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box2 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box2 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #b4e1dc;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box2 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.15rem;
+      background: url("../image/zixun.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box2 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #b4e1dc;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box2 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #009f8a; }
+
+.zixun_box {
+  width: 100%;
+  height: 1.5rem;
+  background: white; }
+  .zixun_box .zixun1 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/zi.webp");
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box .zixun2 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/zi2.webp");
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box .zixun3 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/zi3.webp");
+    background-size: 1.06rem;
+    float: left; }
+
+.da {
+  width: 100%;
+  height: 0.8rem;
+  background: url("../image/da.webp");
+  background-size: 3.2rem; }
+
+.biqiang_box3 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box3 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box3 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #bbd79f;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box3 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.15rem;
+      background: url("../image/bianjie.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box3 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #bbd79f;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box3 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #43af00; }
+
+.bianjie_box {
+  width: 100%;
+  height: 1.25rem; }
+  .bianjie_box .bianjie1 {
+    float: left;
+    width: 1.4rem;
+    height: 1.25rem;
+    background: url("../image/bian1.webp");
+    background-size: 1.4rem;
+    margin-right: 0.01rem; }
+  .bianjie_box .bianjie2 {
+    float: left;
+    width: 1.79rem;
+    height: 1.25rem; }
+    .bianjie_box .bianjie2 .top {
+      width: 100%;
+      height: 50%;
+      background: url("../image/bian2.webp");
+      background-size: 1.7rem; }
+    .bianjie_box .bianjie2 .bottom {
+      width: 100%;
+      height: 50%;
+      background: url("../image/bian3.webp");
+      background-size: 1.7rem; }
+
+.biqiang_box4 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box4 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box4 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #cab9d9;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box4 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.15rem;
+      background: url("../image/haigou.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box4 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #cab9d9;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box4 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #8828dd; }
+
+.zixun_box1 {
+  width: 100%;
+  height: 1.5rem;
+  background: white; }
+  .zixun_box1 .zixun1 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/hai1.webp") no-repeat center;
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box1 .zixun2 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/hai2.webp") no-repeat center;
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box1 .zixun3 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/hai3.webp") no-repeat center;
+    background-size: 1.06rem;
+    float: left; }
+
+.biqiang_box5 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box5 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box5 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #e8bad5;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box5 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.5rem;
+      background: url("../image/jingxuan.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box5 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #e8bad5;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box5 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #e24aa5; }
+
+.jingxuan_box {
+  width: 100%;
+  height: 2.1rem; }
+  .jingxuan_box .jingxuan1 {
+    width: 100%;
+    height: 1.12rem; }
+    .jingxuan_box .jingxuan1 .j1 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/jing.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box .jingxuan1 .j2 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/jing2.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box .jingxuan1 .j3 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/jing3.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box .jingxuan1 .j4 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/jing4.webp");
+      background-size: 0.8rem; }
+  .jingxuan_box .jingxuan2 {
+    width: 100%;
+    height: 0.9rem; }
+    .jingxuan_box .jingxuan2 .j5 {
+      width: 50%;
+      height: 100%;
+      background: url("../image/jing5.webp");
+      background-size: 1.6rem;
+      float: left; }
+    .jingxuan_box .jingxuan2 .j6 {
+      width: 50%;
+      height: 100%;
+      background: url("../image/jing6.webp");
+      background-size: 1.6rem;
+      float: left; }
+
+.biqiang_box6 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box6 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box6 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #bedbec;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box6 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.5rem;
+      background: url("../image/aishenghuo.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box6 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #bedbec;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box6 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #17b7ff; }
+
+.jingxuan_box1 {
+  width: 100%; }
+  .jingxuan_box1 .jingxuan1 {
+    width: 100%;
+    height: 1.12rem; }
+    .jingxuan_box1 .jingxuan1 .j1 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/ai1.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box1 .jingxuan1 .j2 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/ai2.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box1 .jingxuan1 .j3 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/ai3.webp");
+      background-size: 0.8rem; }
+    .jingxuan_box1 .jingxuan1 .j4 {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background: url("../image/ai4.webp");
+      background-size: 0.8rem; }
+
+.biqiang_box7 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box7 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box7 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #becfec;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box7 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.5rem;
+      background: url("../image/kuwan.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box7 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #becfec;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box7 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #4a84e2; }
+
+.zixun_box2 {
+  width: 100%;
+  height: 1.5rem;
+  background: white; }
+  .zixun_box2 .zixun1 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/ku1.webp");
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box2 .zixun2 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/ku2.webp");
+    background-size: 1.06rem;
+    float: left;
+    margin-right: 0.01rem; }
+  .zixun_box2 .zixun3 {
+    width: 1.06rem;
+    height: 100%;
+    background: url("../image/ku3.webp");
+    background-size: 1.06rem;
+    float: left; }
+
+.biqiang_box8 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box8 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box8 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #c9d0f7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box8 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.5rem;
+      background: url("../image/hangye.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box8 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #c9d0f7;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box8 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #5e4ae2; }
+
+.remen {
+  width: 100%;
+  height: 1rem; }
+  .remen .remen1 {
+    width: 1.59rem;
+    height: 100%;
+    background: white;
+    float: left;
+    margin-right: 0.01rem; }
+    .remen .remen1 .left {
+      float: left;
+      width: 0.75rem;
+      height: 100%; }
+      .remen .remen1 .left .l1 {
+        margin: 0rem auto;
+        width: 100%;
+        height: 0.23rem;
+        font-size: 0.14rem;
+        line-height: 0.23rem;
+        text-align: center; }
+      .remen .remen1 .left .l2 {
+        margin: 0rem auto;
+        width: 100%;
+        height: 0.23rem;
+        font-size: 0.01rem;
+        line-height: 0.23rem;
+        text-align: center;
+        color: #9b9b9b; }
+      .remen .remen1 .left .l3 {
+        margin: 0 auto;
+        width: 100%;
+        height: 0.6rem;
+        background: url("../image/re1.webp") no-repeat center;
+        background-size: 0.5rem; }
+    .remen .remen1 .right {
+      float: left;
+      width: 0.7rem;
+      height: 100%;
+      background: url("../image/re2.webp") no-repeat center;
+      background-size: 0.7rem; }
+  .remen .remen2 {
+    width: 1.59rem;
+    height: 100%;
+    background: white;
+    float: left; }
+    .remen .remen2 .left {
+      float: left;
+      width: 0.75rem;
+      height: 100%; }
+      .remen .remen2 .left .l1 {
+        margin: 0rem auto;
+        width: 100%;
+        height: 0.23rem;
+        font-size: 0.14rem;
+        line-height: 0.23rem;
+        text-align: center; }
+      .remen .remen2 .left .l2 {
+        margin: 0rem auto;
+        width: 100%;
+        height: 0.23rem;
+        font-size: 0.01rem;
+        line-height: 0.23rem;
+        text-align: center;
+        color: #9b9b9b; }
+      .remen .remen2 .left .l3 {
+        margin: 0 auto;
+        width: 100%;
+        height: 0.6rem;
+        background: url("../image/re3.webp") no-repeat center;
+        background-size: 0.5rem; }
+    .remen .remen2 .right {
+      float: left;
+      width: 0.7rem;
+      height: 100%;
+      background: url("../image/re4.webp") no-repeat center;
+      background-size: 0.7rem; }
+
+.remen3 {
+  height: 1.3rem;
+  width: 100%; }
+  .remen3 .re1 {
+    margin-right: 0.01rem;
+    margin-top: 0.01rem;
+    width: 0.79rem;
+    height: 100%;
+    background: white;
+    float: left; }
+    .remen3 .re1 .r1 {
+      height: 0.23rem;
+      width: 100%;
+      font-size: 0.14rem;
+      text-align: center;
+      margin: 0 auto; }
+    .remen3 .re1 .r2 {
+      height: 0.23rem;
+      width: 100%;
+      font-size: 0.1rem;
+      text-align: center;
+      margin: 0 auto;
+      color: #ccc; }
+    .remen3 .re1 .r3 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re5.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r4 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re6.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r5 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re7.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r6 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re8.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r7 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re9.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r8 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re10.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r9 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re11.webp") no-repeat center;
+      background-size: 0.79rem; }
+    .remen3 .re1 .r10 {
+      width: 100%;
+      height: 0.74rem;
+      background: url("../image/re12.webp") no-repeat center;
+      background-size: 0.79rem; }
+
+.biqiang_box9 {
+  width: 100%;
+  height: 0.3rem; }
+  .biqiang_box9 .biqiang {
+    margin: 0 0.8rem;
+    width: 1.4rem;
+    height: 100%;
+    position: relative; }
+    .biqiang_box9 .biqiang .hengxian1 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #2f2f2f;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .biqiang_box9 .biqiang .huo {
+      width: 0.15rem;
+      height: 0.5rem;
+      background: url("../image/pinpai.webp") no-repeat center;
+      background-size: 0.15rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.4rem;
+      float: left; }
+    .biqiang_box9 .biqiang .hengxian2 {
+      width: 0.36rem;
+      height: 0.01rem;
+      background: #2f2f2f;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 1.3rem; }
+    .biqiang_box9 .biqiang .biqiangwenzi {
+      width: 0.6rem;
+      height: 0.2rem;
+      font-size: 0.15rem;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0.6rem;
+      color: #2f2f2f; }
+
+.pinpai_box {
+  width: 100%;
+  height: 2.8rem; }
+  .pinpai_box .pinpai1 {
+    width: 1.58rem;
+    height: 1.4rem;
+    margin-bottom: 0.01rem;
+    margin-left: 0.01rem;
+    float: left; }
+    .pinpai_box .pinpai1 .shang {
+      width: 100%;
+      height: 1.05rem;
+      margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai1 .shang .zuo {
+        width: 1.05rem;
+        height: 1.05rem;
+        margin-left: 0.01rem;
+        background: url("../image/pin1.webp") no-repeat center;
+        background-size: 1.05rem;
+        float: left; }
+      .pinpai_box .pinpai1 .shang .you1 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin2.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai1 .shang .you2 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin3.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+    .pinpai_box .pinpai1 .xia {
+      width: 100%;
+      height: 0.34rem;
+      background: beige; }
+      .pinpai_box .pinpai1 .xia .zuo {
+        width: 0.27rem;
+        height: 100%;
+        background: url("../image/pin4.webp") no-repeat center;
+        background-size: 0.27rem;
+        margin-right: 0.01rem;
+        float: left; }
+      .pinpai_box .pinpai1 .xia .you {
+        padding-left: 0.1rem;
+        float: left;
+        width: 1.2rem;
+        height: 100%; }
+        .pinpai_box .pinpai1 .xia .you .y1 {
+          width: 100%;
+          height: 50%;
+          font-size: 0.12rem;
+          float: left; }
+        .pinpai_box .pinpai1 .xia .you .y2 {
+          width: 100%;
+          height: 50%;
+          color: #9b9b9b;
+          font-size: 0.12rem;
+          float: left; }
+  .pinpai_box .pinpai2 {
+    width: 1.58rem;
+    height: 1.4rem;
+    margin-bottom: 0.01rem;
+    margin-left: 0.01rem;
+    float: left; }
+    .pinpai_box .pinpai2 .shang {
+      width: 100%;
+      height: 1.05rem;
+      margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai2 .shang .zuo {
+        width: 1.05rem;
+        height: 1.05rem;
+        margin-left: 0.01rem;
+        background: url("../image/pin5.webp") no-repeat center;
+        background-size: 1.05rem;
+        float: left; }
+      .pinpai_box .pinpai2 .shang .you1 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin6.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai2 .shang .you2 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin7.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+    .pinpai_box .pinpai2 .xia {
+      width: 100%;
+      height: 0.34rem;
+      background: beige; }
+      .pinpai_box .pinpai2 .xia .zuo {
+        width: 0.27rem;
+        height: 100%;
+        background: url("../image/pin8.webp") no-repeat center;
+        background-size: 0.27rem;
+        margin-right: 0.01rem;
+        float: left; }
+      .pinpai_box .pinpai2 .xia .you {
+        padding-left: 0.1rem;
+        float: left;
+        width: 1.2rem;
+        height: 100%; }
+        .pinpai_box .pinpai2 .xia .you .y1 {
+          width: 100%;
+          height: 50%;
+          font-size: 0.12rem;
+          float: left; }
+        .pinpai_box .pinpai2 .xia .you .y2 {
+          width: 100%;
+          height: 50%;
+          color: #9b9b9b;
+          font-size: 0.12rem;
+          float: left; }
+  .pinpai_box .pinpai3 {
+    width: 1.58rem;
+    height: 1.4rem;
+    margin-left: 0.01rem;
+    float: left; }
+    .pinpai_box .pinpai3 .shang {
+      width: 100%;
+      height: 1.05rem;
+      margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai3 .shang .zuo {
+        width: 1.05rem;
+        height: 1.05rem;
+        margin-left: 0.01rem;
+        background: url("../image/pin9.webp") no-repeat center;
+        background-size: 1.05rem;
+        float: left; }
+      .pinpai_box .pinpai3 .shang .you1 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin10.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai3 .shang .you2 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin11.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+    .pinpai_box .pinpai3 .xia {
+      width: 100%;
+      height: 0.34rem;
+      background: beige; }
+      .pinpai_box .pinpai3 .xia .zuo {
+        width: 0.27rem;
+        height: 100%;
+        background: url("../image/pin12.webp") no-repeat center;
+        background-size: 0.27rem;
+        margin-right: 0.01rem;
+        float: left; }
+      .pinpai_box .pinpai3 .xia .you {
+        padding-left: 0.1rem;
+        float: left;
+        width: 1.2rem;
+        height: 100%; }
+        .pinpai_box .pinpai3 .xia .you .y1 {
+          width: 100%;
+          height: 50%;
+          font-size: 0.12rem;
+          float: left; }
+        .pinpai_box .pinpai3 .xia .you .y2 {
+          width: 100%;
+          height: 50%;
+          color: #9b9b9b;
+          font-size: 0.12rem;
+          float: left; }
+  .pinpai_box .pinpai4 {
+    width: 1.58rem;
+    height: 1.4rem;
+    margin-left: 0.01rem;
+    float: left; }
+    .pinpai_box .pinpai4 .shang {
+      width: 100%;
+      height: 1.05rem;
+      margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai4 .shang .zuo {
+        width: 1.05rem;
+        height: 1.05rem;
+        margin-left: 0.01rem;
+        background: url("../image/pin13.webp") no-repeat center;
+        background-size: 1.05rem;
+        float: left; }
+      .pinpai_box .pinpai4 .shang .you1 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin14.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+      .pinpai_box .pinpai4 .shang .you2 {
+        width: 0.5rem;
+        height: 0.52rem;
+        float: left;
+        background: url("../image/pin15.webp") no-repeat center;
+        background-size: 0.52rem;
+        margin-left: 0.02rem;
+        margin-bottom: 0.01rem; }
+    .pinpai_box .pinpai4 .xia {
+      width: 100%;
+      height: 0.34rem;
+      background: beige; }
+      .pinpai_box .pinpai4 .xia .zuo {
+        width: 0.27rem;
+        height: 100%;
+        background: url("../image/pin16.webp") no-repeat center;
+        background-size: 0.27rem;
+        margin-right: 0.01rem;
+        float: left; }
+      .pinpai_box .pinpai4 .xia .you {
+        padding-left: 0.1rem;
+        float: left;
+        width: 1.2rem;
+        height: 100%; }
+        .pinpai_box .pinpai4 .xia .you .y1 {
+          width: 100%;
+          height: 50%;
+          font-size: 0.12rem;
+          float: left; }
+        .pinpai_box .pinpai4 .xia .you .y2 {
+          width: 100%;
+          height: 50%;
+          color: #9b9b9b;
+          font-size: 0.12rem;
+          float: left; }
+
+.hou {
+  width: 100%;
+  height: 1.3rem; }
+  .hou .h1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: white; }
+    .hou .h1 .z1 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem; }
+    .hou .h1 .z2 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem;
+      color: #9b9b9b; }
+    .hou .h1 .z3 {
+      height: 0.8rem;
+      width: 100%;
+      background: url("../image/pin17.webp") no-repeat center;
+      background-size: 0.8rem; }
+  .hou .h2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: white; }
+    .hou .h2 .z1 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem; }
+    .hou .h2 .z2 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem;
+      color: #9b9b9b; }
+    .hou .h2 .z3 {
+      height: 0.8rem;
+      width: 100%;
+      background: url("../image/pin18.webp") no-repeat center;
+      background-size: 0.8rem; }
+  .hou .h3 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: white; }
+    .hou .h3 .z1 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem; }
+    .hou .h3 .z2 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem;
+      color: #9b9b9b; }
+    .hou .h3 .z3 {
+      height: 0.8rem;
+      width: 100%;
+      background: url("../image/pin19.webp") no-repeat center;
+      background-size: 0.8rem; }
+  .hou .h4 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background: white; }
+    .hou .h4 .z1 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem; }
+    .hou .h4 .z2 {
+      height: 0.24rem;
+      width: 100%;
+      text-align: center;
+      line-height: 0.24rem;
+      font-size: 0.12rem;
+      color: #9b9b9b; }
+    .hou .h4 .z3 {
+      height: 0.8rem;
+      width: 100%;
+      background: url("../image/pin20.webp") no-repeat center;
+      background-size: 0.8rem; }
+
+.zhezhao {
+  display: none;
+  width: 100%;
+  height: 26rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 111; }
+  .zhezhao .fanhui {
+    width: 0.12rem;
+    height: 1rem;
+    position: fixed;
+    right: 0.1rem;
+    top: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 112; }
+
+.cebian {
+  width: 2.8rem;
+  height: 5.7rem;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 222;
+  transition: transform .5s ease;
+  transform: translate3d(-100%, 0, 0); }
+  .cebian.cebian1 {
+    transform: translate3d(0, 0, 0); }
+
+.fenlei {
+  width: 100%;
+  height: auto;
+  background: #eeeeee;
+  border-bottom: 1px solid  #e1e1e1;
+  box-sizing: border-box;
+  font-size: 0.14rem;
+  padding-left: 0.1rem;
+  line-height: 0.4rem;
+  position: relative; }
+
+.fen1 {
+  width: 0.65rem;
+  height: 0.6rem;
+  background: #eeeeee;
+  border: 1px solid  #e1e1e1;
+  border-bottom: none;
+  border-right: none;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.12rem;
+  color: #9b9b9b; }
+  .fen1.fen2 {
+    background: white; }
+  .fen1 .f2 {
+    font-size: 0.2rem;
+    width: 2.15rem;
+    height: auto;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.65rem;
+    top: 0rem;
+    z-index: 222222;
+    display: none; }
+    .fen1 .f2 .title {
+      width: 100%;
+      height: 0.6rem;
+      color: #9b9b9b;
+      line-height: 0.6rem;
+      text-align: left;
+      font-size: 0.14rem;
+      margin-left: 0.1rem; }
+    .fen1 .f2 .content {
+      width: 100%;
+      height: 1.8rem; }
+      .fen1 .f2 .content .con1 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con1 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui1.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con1 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content .con2 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con2 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui2.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con2 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content .con3 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con3 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui3.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con3 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content .con4 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con4 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui4.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con4 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content .con5 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con5 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui5.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con5 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content .con6 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content .con6 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui6.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content .con6 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+    .fen1 .f2 .content1 {
+      width: 100%;
+      height: 1.8rem; }
+      .fen1 .f2 .content1 .con1 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con1 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui7.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content1 .con1 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content1 .con2 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con2 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui8.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content1 .con2 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content1 .con3 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con3 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui9.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content1 .con3 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content1 .con4 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con4 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui10.webp") no-repeat center;
+          background-size: 0.75rem; }
+        .fen1 .f2 .content1 .con4 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content1 .con5 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con5 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui11.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content1 .con5 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+      .fen1 .f2 .content1 .con6 {
+        width: 33.3%;
+        height: 0.9rem;
+        float: left; }
+        .fen1 .f2 .content1 .con6 .c1 {
+          width: 100%;
+          height: 0.6rem;
+          background: url("../image/zui12.webp") no-repeat center;
+          background-size: 0.5rem; }
+        .fen1 .f2 .content1 .con6 .c2 {
+          width: 100%;
+          height: 0.3rem;
+          text-align: center;
+          line-height: 0.3rem;
+          color: #7a7a7a;
+          font-size: 0.12rem; }
+  .fen1 .f3 {
+    display: block; }
+
+.zong {
+  width: 100%;
+  height: 100%;
+  background: repeat;
+  position: relative; }
+
+.bi_box {
+  width: 100%;
+  height: 2.54rem; }
+  .bi_box .bi1 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi1 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi1 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi1 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi1 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi1 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi1 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b1.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi2 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi2 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi2 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi2 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi2 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi2 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi2 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b2.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi3 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi3 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi3 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi3 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi3 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi3 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi3 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b3.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi4 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi4 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi4 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi4 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi4 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi4 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi4 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b4.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi5 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi5 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi5 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi5 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi5 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi5 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi5 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b5.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi6 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi6 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi6 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi6 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi6 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi6 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi6 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b6.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi7 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi7 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi7 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi7 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi7 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi7 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi7 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b7.webp") no-repeat center;
+      background-size: 0.6rem; }
+  .bi_box .bi8 {
+    float: left;
+    width: 0.79rem;
+    height: 1.26rem;
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background: white; }
+    .bi_box .bi8 .wen1 {
+      width: 100%;
+      height: 0.25rem;
+      font-size: 0.14rem;
+      line-height: 0.25rem;
+      text-align: center; }
+    .bi_box .bi8 .wen3 {
+      width: 100%;
+      height: 0.25rem; }
+      .bi_box .bi8 .wen3 .s1 {
+        color: #ff2e2e;
+        font-size: 0.12rem;
+        margin-left: 0.05rem; }
+      .bi_box .bi8 .wen3 .s2 {
+        color: #9b9b9b;
+        font-size: 0.12rem;
+        position: relative; }
+        .bi_box .bi8 .wen3 .s2 div {
+          width: 0.4rem;
+          height: 0.01rem;
+          background: #9b9b9b;
+          position: absolute;
+          top: 45%;
+          left: 0; }
+    .bi_box .bi8 .wen2 {
+      width: 100%;
+      height: 0.76rem;
+      background: url("../image/b8.webp") no-repeat center;
+      background-size: 0.6rem; }
